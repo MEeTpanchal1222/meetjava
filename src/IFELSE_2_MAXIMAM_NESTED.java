@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-public class Ifelse_minmum
-{
-    public static void main(String[]args)
-    {
+public class IFELSE_2_MAXIMAM_NESTED {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         byte a;
         byte b;
@@ -12,17 +10,14 @@ public class Ifelse_minmum
         a = input.nextByte();
         System.out.print("Enter the number B:");
         b = input.nextByte();
-
-        if(a<b)
+        if(a>b)
         {
-            System.out.println("A is mini");
+            System.out.println("A is maximum");
             System.out.println(a);
 
-        }else
-        {
-            System.out.println("B is mini");
+        }else {
+            System.out.println("B is maximam");
             System.out.println(b);
-
         }
 
     }
